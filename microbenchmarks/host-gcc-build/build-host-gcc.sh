@@ -4,7 +4,7 @@ set -e
 
 VERSION="gcc-9.2.0"
 
-wget https://ftp.gnu.org/gnu/gcc/$VERSION/$VERSION.tar.gz
+wget --no-check-certificate https://ftp.gnu.org/gnu/gcc/$VERSION/$VERSION.tar.gz
 
 tar xzf $VERSION.tar.gz
 
